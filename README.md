@@ -25,7 +25,11 @@ Beginning of 2021 Epicodus Capstone Project.
 * Sept 26th 2021 4:45 PM to 5:00 PM - Drawio, standup in class. (15 min)
 * Sept 28th 2021 6 PM to 7 - Standup in class, creating schema. (60 min)
 * Oct 2nd 2021 3 PM to 3:30 - Schema Analysis. (30 min)
-* Oct 3rd 2021 9:30 AM - ??? - API.
+* Oct 3rd 2021 9:30 AM - 10:40 AM - API. (70 min)
+
+FILE TRANSFER, LOST GIT HISTORY.
+
+* Oct 3rd 2021 10:40 AM - ??? - API.
 https://docs.google.com/spreadsheets/d/1UJ5y-uzIn_iSlDE_9wPRfLr41qaUA9mbKf4w1CswyPA/edit#gid=121875076
 
 </details>
