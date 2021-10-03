@@ -8,7 +8,7 @@ using OscarAPI.Models;
 namespace OscarAPI.Migrations
 {
     [DbContext(typeof(OscarAPIContext))]
-    [Migration("20211003172650_Initial")]
+    [Migration("20211003192904_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
