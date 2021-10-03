@@ -9,7 +9,7 @@ namespace OscarAPI.Models
             {
             }
 
-            public DbSet<Film> Films { get; set; }
+            public DbSet<Nomination> Nominations { get; set; }
     }
     
 }

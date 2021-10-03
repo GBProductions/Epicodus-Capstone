@@ -8,7 +8,7 @@ using OscarAPI.Models;
 namespace OscarAPI.Migrations
 {
     [DbContext(typeof(OscarAPIContext))]
-    [Migration("20211003192904_Initial")]
+    [Migration("20211003223502_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -18,17 +18,17 @@ namespace OscarAPI.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("OscarAPI.Models.Film", b =>
+            modelBuilder.Entity("OscarAPI.Models.Nomination", b =>
                 {
-                    b.Property<int>("FilmId")
+                    b.Property<int>("NominationId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     b.Property<string>("Category")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
+                    b.Property<string>("Film")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.Property<string>("Nominee")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
@@ -36,15 +36,15 @@ namespace OscarAPI.Migrations
                     b.Property<string>("Notes")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<bool>("Winner")
-                        .HasColumnType("tinyint(1)");
+                    b.Property<string>("Winner")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.Property<string>("Year")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.HasKey("FilmId");
+                    b.HasKey("NominationId");
 
-                    b.ToTable("Films");
+                    b.ToTable("Nominations");
                 });
 #pragma warning restore 612, 618
         }
