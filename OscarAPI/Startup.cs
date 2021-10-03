@@ -21,7 +21,7 @@ namespace OscarAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<OscarAPIContext> (opt =>
-            opt.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
+                opt.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
             services.AddControllers();
         }
 
@@ -31,8 +31,6 @@ namespace OscarAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "OscarAPI v1"));
             }
 
             // app.UseHttpsRedirection();
