@@ -1,5 +1,8 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OscarAPI.Models;
@@ -78,6 +81,21 @@ namespace OscarAPI.Controllers
             return CreatedAtAction(nameof(GetNomination), new { id = nomination.NominationId }, nomination);
         }
 
+        // DELETE: api/Nominations/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteNomination (int id)
+        {
+            var nomination = await _db.Nominations.FindAsync(id);
+            if (nomination == null)
+            {
+                return NotFound();
+            }
+
+            _db.Nominations.Remove(nomination);
+            await _db.SaveChangesAsync();
+
+            return NoContent();
+        }
         
         private bool NominationExists(int id)
         {

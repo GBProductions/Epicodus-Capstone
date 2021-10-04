@@ -6,10 +6,10 @@ namespace OscarAPI.Models
     {
         public OscarAPIContext(DbContextOptions<OscarAPIContext> options)
             : base(options)
-            {
-            }
+        {
+        }
 
-            public DbSet<Nomination> Nominations { get; set; }
+        public DbSet<Nomination> Nominations { get; set; }
     }
     
 }
