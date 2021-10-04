@@ -3,7 +3,7 @@
 Beginning of 2021 Epicodus Capstone Project.
 
 * _Date Created: Sept 14th 2021_
-* _Last Updated: Sept 28th 2021_
+* _Last Updated: Oct 3rd 2021_
 
 #### By _Garrett Brown_
 
@@ -31,6 +31,9 @@ FILE TRANSFER, LOST GIT HISTORY.
 
 * Oct 3rd 2021 10:40 AM - 1PM - API. (140 min)
 * Oct 3rd 2021 2:20 PM - 5:30 PM - API, GET, PUT, PUSH. (190 min)
+* Oct 3rd 2021 7 PM - 8:30 PM - API, fully functional (90 min)
+
+Check in: 1,066 min, or 17.7666667 hours.
 https://docs.google.com/spreadsheets/d/1UJ5y-uzIn_iSlDE_9wPRfLr41qaUA9mbKf4w1CswyPA/edit#gid=121875076
 
 </details>
