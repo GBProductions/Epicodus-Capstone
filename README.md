@@ -29,7 +29,8 @@ Beginning of 2021 Epicodus Capstone Project.
 
 FILE TRANSFER, LOST GIT HISTORY.
 
-* Oct 3rd 2021 10:40 AM - ??? - API.
+* Oct 3rd 2021 10:40 AM - 1PM - API. (140 min)
+* Oct 3rd 2021 2:20 PM - 5:30 PM - API, GET, PUT, PUSH. (190 min)
 https://docs.google.com/spreadsheets/d/1UJ5y-uzIn_iSlDE_9wPRfLr41qaUA9mbKf4w1CswyPA/edit#gid=121875076
 
 </details>
