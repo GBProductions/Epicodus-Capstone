@@ -7,6 +7,7 @@ namespace OscarAPI.Models
         public string Film { get; set; }
         public string Year { get; set; }
         public string Category { get; set; }
+        public string CategoryActive { get; set; }
         public string Winner { get; set; }
         public string Notes { get; set; }
 
