@@ -34,6 +34,11 @@ FILE TRANSFER, LOST GIT HISTORY.
 * Oct 3rd 2021 7 PM - 8:30 PM - API, fully functional (90 min)
 
 Check in: 1,066 min, or 17.7666667 hours.
+
+* Oct 6th 2021 6:45 PM - 8: 15 PM - Seeding Data. (90 min)
+* Oct 6th 2021 8:15 PM - 9:05 PM - API. (50 min)
+* Oct 6th 2021 9:05 PM - 11:40 PM - Seeding Database. (155 min)
+* Oct 6th 2021 11:40 PM - 12:00 AM Migration Issues Fixed. (20 min)
 https://docs.google.com/spreadsheets/d/1UJ5y-uzIn_iSlDE_9wPRfLr41qaUA9mbKf4w1CswyPA/edit#gid=121875076
 
 </details>

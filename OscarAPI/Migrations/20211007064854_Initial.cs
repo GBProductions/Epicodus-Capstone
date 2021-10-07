@@ -13,11 +13,12 @@ namespace OscarAPI.Migrations
                 {
                     NominationId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Nominee = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    Film = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    Year = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    Category = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    Winner = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
+                    Nominee = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: false),
+                    Film = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: false),
+                    Year = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: false),
+                    Category = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: false),
+                    CategoryActive = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: false),
+                    Winner = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: false),
                     Notes = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true)
                 },
                 constraints: table =>
