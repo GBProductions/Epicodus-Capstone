@@ -22,9 +22,41 @@ namespace OscarAPI.Controllers
     
         // GET api/nominations
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Nomination>>> Get()
+        public async Task<ActionResult<IEnumerable<Nomination>>> Get(string nominee, string film, string year, string category, string categoryactive, string winner)
         {
-            return await _db.Nominations.ToListAsync();
+            var query = _db.Nominations.AsQueryable();
+
+            if (nominee != null)
+            {
+                query = query.Where(entry => entry.Nominee == nominee);
+            }
+
+            if (film != null)
+            {
+                query = query.Where(entry => entry.Film == film);
+            }
+
+            if (year != null)
+            {
+                query = query.Where(entry => entry.Year == year);
+            }
+
+            if (category != null)
+            {
+                query = query.Where(entry => entry.Category == category);
+            }
+
+            if (categoryactive != null)
+            {
+                query = query.Where(entry => entry.CategoryActive == categoryactive);
+            }
+
+            if (winner != null)
+            {
+                query = query.Where(entry => entry.Winner == winner);
+            }
+
+            return await query.ToListAsync();
         }
 
         // GET: api/Nominations/5
