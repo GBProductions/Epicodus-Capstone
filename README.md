@@ -46,6 +46,10 @@ Check in: 1,066 min, or 17.7666667 hours.
 * Oct 6th 2021 9:05 PM - 11:40 PM - Seeding Database. (155 min)
 * Oct 6th 2021 11:40 PM - 12:00 AM - Migration Issues Fixed. (20 min)
 * Oct 8th 2021 4:15 PM - 5:40 PM - Integration of Swagger into API. (85 min)
+* Oct 8th 2021 5:40 PM - 7:00 PM PM - Building out API End Points in README.  (80 min)
+* Oct 9th 2021 10 AM - ??? - 
+
+Check in: 1,546 min, or 25.76 hours.
 https://docs.google.com/spreadsheets/d/1UJ5y-uzIn_iSlDE_9wPRfLr41qaUA9mbKf4w1CswyPA/edit#gid=121875076
 
 </details>
@@ -119,6 +123,9 @@ This will recreate the database on your computer, using MySQLWorkbench. You can 
 </details>
 
 ## API Exploration
+
+![An SQL table showing the Oscar_API schema. A table named Awards has the fields "id" and "Academy Awards." The "id" field is connected to a field "NominationId" which is in the table Nominations. Nominations has the fields "NominationID", "Nominee", "Film", "Year", "Category", "CategoryActive", "Winner", and "Notes".](./OscarAPI/img/Oscar_API-Schema.png "OscarAPI Schema")
+
 ### Swagger
 To explore Academy Award API with Swagger - Swashbuckle, go to your program directory and launch the program with `dotnet run`. Once the program is running, open a browser window and go to `http://localhost:5000/swagger`, and you will be able to navigate and have full CRUD functionality.
 
@@ -131,7 +138,6 @@ Basic URL: `https://localhost5000`
 
 HTTP Request Structure (add after Basic URL)
 
-```
 | Route                      | Usage                 |   
 |----------------------------|-----------------------|
 | GET /api/Nominations           | Return all nominations    | 
@@ -139,11 +145,11 @@ HTTP Request Structure (add after Basic URL)
 | GET /api/Nominations/{id}      | Return nomination by id   |
 | PUT /api/Nominations/{id}      | Edit nomination by id     |
 | DELETE /api/Nominations/{id}   | Delete nomination by id   |
-```
+
 ### Path Parameters
 Explanation of parameters for Nomination:
 
-```
+
 | Parameter      | Required? | Type   | Description                                             |
 |----------------|-----------|--------|---------------------------------------------------------|
 | Nominee        | yes       | string | Returns by name(s) of nominee.                          |
@@ -153,7 +159,7 @@ Explanation of parameters for Nomination:
 | CategoryActive | yes       | string | Returns categories by whether they are active or not.   |
 | Winner         | yes       | string | Returns winners of a specific category.                 |
 | Notes          | no        | string | Returns by assorted details associated with nomination. |
-```
+
 
 ### Searching via Parameters
 In order to search for animals matching a parameter, use this format:
