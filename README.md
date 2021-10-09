@@ -47,7 +47,7 @@ Check in: 1,066 min, or 17.7666667 hours.
 * Oct 6th 2021 11:40 PM - 12:00 AM - Migration Issues Fixed. (20 min)
 * Oct 8th 2021 4:15 PM - 5:40 PM - Integration of Swagger into API. (85 min)
 * Oct 8th 2021 5:40 PM - 7:00 PM PM - Building out API End Points in README.  (80 min)
-* Oct 9th 2021 10 AM - ??? - 
+* Oct 9th 2021 10 AM - ??? - OscarAPI Schema creation.
 
 Check in: 1,546 min, or 25.76 hours.
 https://docs.google.com/spreadsheets/d/1UJ5y-uzIn_iSlDE_9wPRfLr41qaUA9mbKf4w1CswyPA/edit#gid=121875076
@@ -203,8 +203,6 @@ _Academy Awards API_
 
 ## Licensing
 
-```
-
 MIT License
 
 Copyright (c) 2021 GARRETT BROWN
@@ -226,5 +224,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-```
