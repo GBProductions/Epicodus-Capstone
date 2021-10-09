@@ -1,9 +1,8 @@
-# _Epicodus Oscar Night_
-
-Beginning of 2021 Epicodus Capstone Project.
+# Academy Awards API
+## By Garrett Brown
 
 * _Date Created: Sept 14th 2021_
-* _Last Updated: Oct 3rd 2021_
+* _Last Updated: Oct 8th 2021_
 
 #### By _Garrett Brown_
 
@@ -38,7 +37,8 @@ Check in: 1,066 min, or 17.7666667 hours.
 * Oct 6th 2021 6:45 PM - 8: 15 PM - Seeding Data. (90 min)
 * Oct 6th 2021 8:15 PM - 9:05 PM - API. (50 min)
 * Oct 6th 2021 9:05 PM - 11:40 PM - Seeding Database. (155 min)
-* Oct 6th 2021 11:40 PM - 12:00 AM Migration Issues Fixed. (20 min)
+* Oct 6th 2021 11:40 PM - 12:00 AM - Migration Issues Fixed. (20 min)
+* Oct 8th 2021 4:15 PM - 5:40 PM - Integration of Swagger into API. (85 min)
 https://docs.google.com/spreadsheets/d/1UJ5y-uzIn_iSlDE_9wPRfLr41qaUA9mbKf4w1CswyPA/edit#gid=121875076
 
 </details>
@@ -89,6 +89,7 @@ _For assistance, please contact:_
 ## Technologies Used
 * Visual Studios Code (VSCode)
 * Github
+* C#, Entity, .NET
 
 ## Licensing
 
