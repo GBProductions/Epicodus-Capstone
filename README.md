@@ -66,8 +66,8 @@ Check in: 2,190 min, or 36.5 hours.
 ##### User Stories
 <details>
     <summary><span style="color:red"><strong>Expand to Read User Stories</strong></summary>
-1. User needs to be able to use program.
-2. This will get filled in later I assume.
+    1. User will be able to search API by assorted fields.
+    2. Admin will be able to GET, PUT, PUSH, and DELETE objects in the API.
 
 </details>
 
