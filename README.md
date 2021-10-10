@@ -51,6 +51,7 @@ Check in: 1,066 min, or 17.7666667 hours.
 Check in: 1,546 min, or 25.76 hours.
 * Oct 9th 2021 10 AM - 11 AM - OscarAPI Schema creation. React App creation. (60 min)
 * Oct 9th 2021 11 AM - 1:14 PM - Favicon change, React git fixing. CSS. (134 min)
+* Oct 9th 2021 5pm - 7 PM - Adding data to API, beginning connection. (120 min)
 
 Check in: 1,736 min, or 28.93 hours.
 https://docs.google.com/spreadsheets/d/1UJ5y-uzIn_iSlDE_9wPRfLr41qaUA9mbKf4w1CswyPA/edit#gid=121875076
