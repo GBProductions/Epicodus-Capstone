@@ -53,9 +53,13 @@ Check in: 1,546 min, or 25.76 hours.
 * Oct 9th 2021 11 AM - 1:14 PM - Favicon change, React git fixing. CSS. (134 min)
 * Oct 9th 2021 5pm - 7 PM - Adding data to API, beginning connection. (120 min)
 
+
 Check in: 1,860 min, or 31 hours.
 
 * Oct 9th 2021 7pm - 9:30 PM - Adding data to API, beginning connection. (150 min)
+* Oct 9th 2021 10:45pm - 1:45 AM - Trying to Reconcile API issues/CORS. (180 min) 
+
+Check in: 2,190 min, or 36.5 hours.
 
 </details>
 

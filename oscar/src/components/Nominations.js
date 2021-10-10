@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 class Nominations extends React.Component {
     constructor(props) {
         super(props);
@@ -16,8 +15,7 @@ class Nominations extends React.Component {
     }
 
     makeApiCall = () => {
-         
-        fetch(`http://cors-anywhere.herokuapp.com/http://localhost:5000/api/Nominations`)
+        fetch("Access-Control-Allow-Origin, https://localhost:5000/api/Nominations", { credentials: "include", headers: { "Accept": "application/json", 'Content-Type': "application/json" }})
             .then(response => response.json())
             .then(
                 (jsonifiedResponse) => {
@@ -44,7 +42,8 @@ class Nominations extends React.Component {
             return (
                 <React.Fragment>
                     <h1>Nominations</h1>
-                    <ul>
+                    <p>{nominations}</p>
+                    {/* <ul>
                         {nominations.map((nomination, index) =>
                             <li key={index}>
                                 <h3>{nomination.film}</h3>
@@ -55,7 +54,7 @@ class Nominations extends React.Component {
                                 <p>{nomination.notes}</p>
                             </li>
                         )}
-                    </ul>
+                    </ul> */}
                 </React.Fragment>
             );
         }
